@@ -1,0 +1,86 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.new{
+border-radius:50rem;
+background-color: white;
+
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 1rem;
+padding-right: 1rem;
+display: flex;
+margin: 5px;
+
+margin-top: 20rem;
+
+
+}
+.content1{
+  outline:none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+  border-radius: 60px;
+  display: flex;
+ margin: 5px;
+}
+#red{
+  background-color: red;
+}
+#Green{
+  background-color: green;
+}
+#orange{
+  background-color: orange;
+}
+#blue{
+  background-color: blue;
+}
+#pink{
+  background-color: palevioletred;
+}
+#yellow{
+  background-color: yellow;
+}
